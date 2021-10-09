@@ -19,5 +19,8 @@ URL: https://perupobreza2018.samuelenrique.com, https://github.com/calderonsamue
 BugReports: https://github.com/calderonsamuel/perupobreza2018/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    perumapas (>= 0.0.0.9000)
 VignetteBuilder: knitr
+Remotes:  
+    calderonsamuel/perumapas
