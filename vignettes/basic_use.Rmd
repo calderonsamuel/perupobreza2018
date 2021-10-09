@@ -25,9 +25,9 @@ library(rnaturalearth)
 library(sf)
 ```
 
-Esto si migrará al uso con `perumapas::mapa_regional`
+Esto se migrará al uso con `perumapas::mapa_regional`
 
 ```{r}
-ne_states(country = "Peru", returnclass = "sf") %>% View()
+# ne_states(country = "Peru", returnclass = "sf")
 ```
 
