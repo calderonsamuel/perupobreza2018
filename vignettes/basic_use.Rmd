@@ -1,0 +1,33 @@
+---
+title: "Uso básico"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Uso básico}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+## En construcción...
+
+```{r setup}
+library(perupobreza2018)
+library(tidyverse)
+library(rnaturalearth)
+library(sf)
+```
+
+Esto si migrará al uso con `perumapas::mapa_regional`
+
+```{r}
+ne_states(country = "Peru", returnclass = "sf") %>% View()
+```
+

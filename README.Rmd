@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# perupobreza2018
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![CRAN status](https://www.r-pkg.org/badges/version/perupobreza2018)](https://CRAN.R-project.org/package=perupobreza2018)
+<!-- badges: end -->
+
+The goal of perupobreza2018 is to have an easy way to draw peruvian poverty maps.
+
+## Installation
+
+You can install the released version of perupobreza2018 from the [calderonsamuel r-universe](https://calderonsamuel.r-universe.dev/) with:
+
+``` r
+install.packages("perupobreza2018", repos = 'https://calderonsamuel.r-universe.dev')
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("calderonsamuel/perupobreza2018")
+```
+## Example
+
+The dataset `pobreza2018` is a tibble. For better displaying load `tibble` or `tidyverse`.
+
+```{r example}
+library(perupobreza2018)
+library(tibble) # optional
+
+## basic example code
+pobreza2018
+```
+
